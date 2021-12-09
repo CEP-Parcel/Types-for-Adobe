@@ -1359,6 +1359,11 @@ declare class ProjectItem {
   /**
    *
    */
+  getProjectColumnsMetadata(): string
+
+  /**
+   *
+   */
   getProjectMetadata(): string
 
   /**
@@ -2090,7 +2095,7 @@ declare class Application {
   /**
    *
    */
-  getCurrentProjectViewSelection(viewID: string): Array<ProjectItem>
+  getCurrentProjectViewSelection(): Array<ProjectItem>
 
   /**
    *
